@@ -1,4 +1,4 @@
-package com.example.coolweather.db;
+﻿package com.example.coolweather.db;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
@@ -10,7 +10,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 public class CoolWeatherOpenHelper extends SQLiteOpenHelper {
     /**
-     * Province表建表语句
+     * Province表建表语句。
      */
     public static final String CREATE_PROVINCE="create table Province ("
             +"id integer primary key autoincrement,"//此处可能少空格
